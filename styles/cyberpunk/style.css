@@ -1,0 +1,19 @@
+/* скин: cyberpunk */
+:root{--bg:#06080f;--bg-alt:#0b1020;--fg:#e8f6ff;--muted:#7f9bb5;--line:rgba(255,46,136,.42);--accent:#ff2e88;--on-accent:#06080f;--accent-2:#22d3ee;--card-bg:rgba(255,46,136,.07);--card-bd:rgba(255,46,136,.4);--card-radius:0;--tile-radius:0;--mock-radius:0;--ico-radius:0;--btn-radius:0;--field-radius:0;--logo-radius:0;--h1-weight:800;--h2-weight:800;--h1-track:-.02em;--tag-track:.3em;--focus-ring:rgba(255,46,136,.3)}
+body{font-family:"Share Tech Mono",Consolas,"Courier New",monospace;background-image:linear-gradient(rgba(34,211,238,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.05) 1px,transparent 1px);background-size:44px 44px}
+.nav{--nav-bg:rgba(6,8,15,.9);--nav-bd-stuck:var(--accent)}
+.btn{clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);text-transform:uppercase;letter-spacing:.08em}
+.btn--primary{background:var(--accent);color:#06080f}
+.card{clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px))}
+.card--hover:hover{transform:none;box-shadow:0 0 30px rgba(255,46,136,.4);border-color:var(--accent)}
+.card__ico{background:var(--accent);color:#06080f}
+.tile,.quote,.plan,.faq__item,.stat{clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px))}
+.tile__img::after{background:repeating-linear-gradient(0deg,rgba(0,0,0,.4) 0 1px,transparent 1px 3px)}
+.row__art{clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px));--tile-pattern:repeating-linear-gradient(90deg,rgba(34,211,238,.14) 0 2px,transparent 2px 10px)}
+.hero__title{text-shadow:0 0 26px rgba(255,46,136,.55)}
+.marquee{background:#04060c;--mq-color:var(--accent-2);--mq-size:.95rem}
+.marquee__item{letter-spacing:.22em}
+.stat b{color:var(--accent-2);text-shadow:0 0 18px rgba(34,211,238,.5)}
+.plan--hot{border-color:var(--accent);box-shadow:0 0 34px rgba(255,46,136,.28)}
+.foot{--foot-bg:#04060c}
+.cta__bg{background:radial-gradient(60% 70% at 50% 50%,rgba(255,46,136,.24),transparent 70%)}

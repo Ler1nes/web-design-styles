@@ -1,0 +1,16 @@
+/* скин: hand-drawn */
+:root{--font:"Comic Sans MS","Segoe Print","Bradley Hand",var(--font);--bg:#fffdf5;--bg-alt:#fff8e6;--fg:#2f2a22;--muted:#6f6759;--line:#2f2a22;--accent:#3f7fd6;--on-accent:#fffdf5;--accent-2:#e0723f;--card-radius:18px 8px 22px 10px;--tile-radius:22px 10px 18px 12px;--mock-radius:16px 10px 20px 8px;--ico-radius:14px 8px 16px 10px;--btn-radius:14px 8px 16px 10px;--field-radius:12px 8px 14px 10px;--h1-track:-.02em}
+body{background-image:radial-gradient(rgba(47,42,34,.05) 1px,transparent 1px);background-size:16px 16px}
+.card{border:2px solid var(--fg);border-radius:18px 8px 22px 10px;box-shadow:4px 5px 0 rgba(47,42,34,.9)}
+.card--hover:hover{transform:translate(-2px,-3px) rotate(-.5deg);box-shadow:7px 9px 0 rgba(47,42,34,.9)}
+.card__ico{background:var(--accent);border-radius:50%;border:2px solid var(--fg)}
+.btn{border:2px solid var(--fg);box-shadow:3px 4px 0 rgba(47,42,34,.9)}
+.btn--primary{background:var(--accent);color:#fffdf5}
+.hero__title{transform:rotate(-.6deg)}
+.tile,.quote,.plan,.faq__item,.stat{border:2px solid var(--fg);border-radius:20px 10px 24px 12px}
+.row__art{border:2px solid var(--fg);border-radius:24px 10px 20px 12px}
+.plan--hot{background:#fff3cf;transform:rotate(-.4deg)}
+.marquee{background:#fff3cf;border:2px dashed var(--fg)}
+.marquee__row{animation-duration:26s}
+.step::after{background:var(--fg);height:2px}
+.foot{--foot-bg:#fff8e6}

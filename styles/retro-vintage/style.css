@@ -1,0 +1,16 @@
+/* скин: retro-vintage */
+:root{--bg:#f3e7d0;--bg-alt:#e9dabb;--fg:#2f2418;--muted:#6d5b44;--line:#b99b73;--accent:#8b3a1e;--on-accent:#f8eedd;--accent-2:#2f6f6b;--card-radius:6px;--tile-radius:6px;--mock-radius:6px;--ico-radius:50%;--btn-radius:4px;--field-radius:4px;--h1-weight:700;--h2-weight:700}
+body{font-family:Georgia,"Times New Roman",serif}
+.card{background:#faf2e2;border:1px double var(--line);box-shadow:3px 4px 0 rgba(120,90,55,.2)}
+.card--hover:hover{transform:translateY(-4px);box-shadow:5px 8px 0 rgba(120,90,55,.24)}
+.card__ico{background:var(--accent);color:var(--on-accent)}
+.hero__title{font-variant:small-caps;letter-spacing:.01em}
+.tile,.quote,.plan,.faq__item,.stat{background:#faf2e2;border:1px solid var(--line);box-shadow:3px 4px 0 rgba(120,90,55,.18)}
+.row__art{--tile-pattern:radial-gradient(circle at 50% 50%,rgba(255,255,255,.32) 0 22%,transparent 23%)}
+.tile__img::after{background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.3) 0 20%,transparent 21%)}
+.plan--hot{background:#f8ead2;border-color:var(--accent)}
+.tag__dot{border-radius:50%}
+.marquee{background:#e5d3b0;--mq-color:var(--accent)}
+.marquee__item{font-variant:small-caps;letter-spacing:.08em}
+.field input,.field textarea{background:#fdf7ea;border:1px solid var(--line)}
+.foot{--foot-bg:#e9dabb}

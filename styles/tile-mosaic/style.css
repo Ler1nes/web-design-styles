@@ -1,0 +1,13 @@
+/* скин: tile-mosaic */
+:root{--bg:#f6f7f7;--bg-alt:#ffffff;--fg:#12333c;--muted:#5a7780;--line:#cfe0e4;--accent:#0e7490;--on-accent:#fff;--accent-2:#f59e0b;--card-radius:4px;--tile-radius:4px;--mock-radius:4px;--ico-radius:4px;--btn-radius:4px;--field-radius:4px;--h1-weight:700;--tile-bg-image:repeating-linear-gradient(90deg,#0e7490 0 24px,#f59e0b 24px 48px)}
+body{background-image:conic-gradient(from 0deg at 1px 1px,rgba(14,116,144,.06) 25%,transparent 0);background-size:28px 28px}
+.card{background:#fff}
+.card--hover:hover{transform:translateY(-4px)}
+.card__ico{background:var(--accent);color:#fff}
+.tile__img::after{background-image:linear-gradient(rgba(255,255,255,.9) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.9) 1px,transparent 1px);background-size:36px 36px}
+.row__art{--tile-pattern:linear-gradient(rgba(255,255,255,.85) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.85) 1px,transparent 1px);background-size:30px 30px}
+.mini-tile{border-radius:4px}
+.plan--hot{border-color:var(--accent);box-shadow:6px 6px 0 rgba(14,116,144,.24)}
+.marquee{background:var(--accent);--mq-color:#fff;--mq-size:.95rem;border-color:var(--accent)}
+.stat b{color:var(--accent)}
+.foot{--foot-bg:#eef5f6}

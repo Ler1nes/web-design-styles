@@ -1,0 +1,20 @@
+/* скин: swiss */
+:root{--bg:#ffffff;--bg-alt:#f2f2f2;--fg:#000000;--muted:#565656;--line:#000000;--accent:#e11d48;--on-accent:#fff;--accent-2:#1d4ed8;--btn-radius:0;--card-radius:0;--tile-radius:0;--mock-radius:0;--ico-radius:0;--field-radius:0;--logo-radius:0;--h1-weight:700;--h1-track:-.05em;--h2-track:-.04em;--tag-track:.2em;--grid-gap:0}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.nav{--nav-bg:#fff;--nav-bd-stuck:#000;--nav-bd:#000}
+.nav__link{font-weight:500;border-radius:0}
+.nav__link:hover{background:#000;color:#fff}
+.card{background:#fff;border:0;border-top:1px solid var(--line);border-radius:0}
+.card--hover:hover{transform:none;box-shadow:none;background:#000;color:#fff}
+.card--hover:hover .card__text,.card--hover:hover .card__title{color:#fff}
+.card__ico{background:none;color:var(--accent);width:auto;height:auto;border-radius:0}
+.tile{background:#fff;border:1px solid var(--line)}
+.row__art{border-radius:0;--tile-pattern:linear-gradient(var(--accent) 1px,transparent 1px),linear-gradient(90deg,var(--accent) 1px,transparent 1px);background-size:38px 38px}
+.quote,.plan,.faq__item,.stat{background:#fff;border:1px solid var(--line);border-radius:0}
+.stat--plain{border:0}
+.plan--hot{background:var(--accent);color:#fff;border-color:var(--accent)}
+.plan--hot .plan__feats,.plan--hot .plan__price small{color:rgba(255,255,255,.9)}
+.marquee{background:#000;color:#fff;border-color:#000;--mq-color:#fff;--mq-size:1.2rem}
+.stat b{color:var(--accent)}
+.foot{--foot-bg:#000;color:#fff}
+.foot__col ul,.foot__about p,.foot__bar{color:rgba(255,255,255,.72)}

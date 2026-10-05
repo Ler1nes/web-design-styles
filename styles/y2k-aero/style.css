@@ -1,0 +1,13 @@
+/* скин: y2k-aero */
+:root{--bg:#eef6ff;--bg-alt:#ffffff;--fg:#0b1b2e;--muted:#4d6b85;--line:#bcd8ee;--accent:#0b6fd4;--on-accent:#fff;--accent-2:#7cc6f5;--card-radius:20px;--tile-radius:20px;--mock-radius:20px;--ico-radius:12px;--btn-radius:999px;--field-radius:14px;--h1-weight:700;--h1-track:-.03em;--hero-glow:radial-gradient(50% 60% at 60% 0,rgba(124,198,245,.5),transparent 70%)}
+body{font-family:"Trebuchet MS",Verdana,sans-serif;background-image:radial-gradient(circle at 18% 12%,rgba(255,255,255,.9),transparent 40%)}
+.card{background:linear-gradient(160deg,#ffffff,#e9f4ff);box-shadow:0 10px 26px rgba(11,111,212,.14)}
+.card--hover:hover{transform:translateY(-5px);box-shadow:0 22px 44px rgba(11,111,212,.22)}
+.card__ico{background:linear-gradient(150deg,#9fd8ff,#0b6fd4);color:#fff}
+.btn--primary{background:linear-gradient(150deg,#3f9ef0,#0b6fd4);box-shadow:0 8px 18px rgba(11,111,212,.32)}
+.tile__img::after{background:linear-gradient(120deg,rgba(255,255,255,.6),transparent 45%)}
+.row__art{--tile-pattern:linear-gradient(120deg,rgba(255,255,255,.5),transparent 50%)}
+.marquee{background:linear-gradient(90deg,#0b6fd4,#7cc6f5);--mq-color:#fff;border-color:#0b6fd4;--mq-size:1rem}
+.plan--hot{background:linear-gradient(160deg,#fff,#e6f3ff);border-color:#0b6fd4}
+.foot{--foot-bg:#e6f1fb}
+.poster{border-color:#bcd8ee}

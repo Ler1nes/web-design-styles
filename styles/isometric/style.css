@@ -1,0 +1,12 @@
+/* скин: isometric */
+:root{--bg:#f2f7f6;--bg-alt:#ffffff;--fg:#0f2b2a;--muted:#5b7b79;--line:#cfe3e1;--accent:#2f6f6b;--on-accent:#fff;--accent-2:#8fd3ce;--card-radius:18px;--tile-radius:18px;--mock-radius:18px;--ico-radius:12px;--btn-radius:12px;--field-radius:12px;--h1-weight:700;--hero-glow:radial-gradient(50% 60% at 50% 0,rgba(47,111,107,.2),transparent 70%)}
+.row__art{transform-style:preserve-3d}
+.mini-tile{border-radius:16px;transform:rotateX(8deg)}
+.card--hover:hover{transform:translateY(-6px)}
+.card__ico{background:#e2f0ef;color:var(--accent)}
+.tile__img::after{background:linear-gradient(150deg,rgba(255,255,255,.42),transparent 55%)}
+.plan--hot{background:linear-gradient(160deg,#fff,#eef8f7);border-color:var(--accent)}
+.row__glyph{text-shadow:0 8px 0 rgba(0,0,0,.12)}
+.mini-tiles{gap:.5rem}
+.marquee{background:#eaf5f4;--mq-color:var(--accent);--mq-size:.95rem}
+.foot{--foot-bg:#eaf5f4}

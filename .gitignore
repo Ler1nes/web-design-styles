@@ -1,0 +1,16 @@
+# Служебное
+Thumbs.db
+desktop.ini
+.DS_Store
+*.lnk
+
+# Конфликты синхронизации OneDrive
+* - Copy.desktop.ini
+*(- Copy).html
+* - Copy/*
+*_conflict*
+
+# Локальное окружение
+.idea/
+.vscode/
+node_modules/

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Бенто-дизайн — BENTO</title>
+<meta name="description" content="Модульная сетка блоков разного размера. Каждый блок — отдельная мысль, вместе они читаются как дашборд.">
+<meta property="og:title" content="Бенто-дизайн — BENTO">
+<meta property="og:description" content="Модульная сетка блоков разного размера. Каждый блок — отдельная мысль, вместе они читаются как дашборд.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%236d8bff%22%2F%3E%3Cpath%20d%3D%22M18%2044V20h8v16l10-16h9L34%2036l12%208h-10L26%2034v10z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E">
+<link rel="stylesheet" href="../../assets/kit.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="cursor-glow" data-fx="cursor" aria-hidden="true"></div>
+  <header class="nav" data-nav>
+    <div class="shell nav__in">
+      <a class="logo" href="#top"><span class="logo__mark"></span><span>BENTO</span><span class="logo__sub">аналитика</span></a>
+      <nav class="nav__menu" data-menu>
+            <a class="nav__link" href="#showcase">Дашборд</a>
+            <a class="nav__link" href="#features">Модули</a>
+            <a class="nav__link" href="#faq">Тарифы</a>
+      </nav>
+      <div class="nav__side">
+        <a class="btn btn--sm btn--primary" href="#cta" data-magnetic=".2">Открыть</a>
+        <button class="burger" type="button" data-burger aria-expanded="false" aria-label="Меню"><i></i><i></i></button>
+      </div>
+    </div>
+    <div class="nav__drawer" data-drawer>
+            <a href="#showcase">Дашборд</a>
+            <a href="#features">Модули</a>
+            <a href="#faq">Тарифы</a>
+    </div>
+  </header>
+  <main id="main">
+  <section class="hero hero--split " id="top">
+    <div class="hero__glow"></div>
+    <div class="shell hero__in">
+      <div class="hero__body">
+        <p class="tag" data-reveal><span class="tag__dot"></span>Аналитика, собранная как коробка</p>
+        <h1 class="hero__title" data-reveal>ВСЁ ВИДНО СРАЗУ</h1>
+        <p class="hero__lead" data-reveal>BENTO складывает метрики, графики и отчёты в модульную плитку. Крупное — рядом с мелким, ничего не прячется в меню.</p>
+        <div class="hero__cta" data-reveal>
+          <a class="btn btn--primary " href="#cta" data-magnetic=".25">Открыть дашборд</a>
+          <a class="btn btn--ghost " href="#cta">Документация</a>
+        </div>
+        <ul class="hero__meta" data-reveal>
+          <li>90 источников</li>
+          <li>Обновление раз в минуту</li>
+          <li>Экспорт в CSV</li>
+        </ul>
+      </div>
+        <div class="hero__art" data-reveal="zoom">
+          <div class="mock mock--float" data-chart>
+            <div class="mock__bar"><i></i><i></i><i></i><span>bento.live</span></div>
+            <div class="mock__body">
+              <div class="mock__side"><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="mock__main">
+                <div class="mock__kpis">
+                  <div class="kpi"><b>1 284</b><span>Событий/мин</span></div>
+                  <div class="kpi"><b>96.4</b><span>Конверсия</span></div>
+                  <div class="kpi"><b>12</b><span>Источников</span></div>
+                </div>
+                <div class="mock__chart">
+                  <span style="--h:42%"></span>
+                  <span style="--h:58%"></span>
+                  <span style="--h:50%"></span>
+                  <span style="--h:70%"></span>
+                  <span style="--h:62%"></span>
+                  <span style="--h:84%"></span>
+                  <span style="--h:68%"></span>
+                  <span style="--h:90%"></span>
+                </div>
+                <div class="mock__rows">
+                  <div class="mrow"><u></u><i>98.4%</i><em>·</em></div>
+                  <div class="mrow"><u></u><i>98.4%</i><em>·</em></div>
+                  <div class="mrow"><u></u><i>98.4%</i><em>·</em></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">листайте<i></i></div>
+  </section>
+
+  <section class="sec sec--alt" id="showcase">
+    <div class="shell showcase">
+      <div class="showcase__copy" data-reveal="left">
+        <p class="tag"><span class="tag__dot"></span>Модули</p>
+        <h2 class="sec__title">Каждая плитка отвечает на вопрос</h2>
+        <p class="sec__lead">Мы разложили аналитику на модули и запретили прятать важное за кнопкой «ещё».</p>
+        <ul class="row__list">
+          <li>Крупные KPI всегда сверху</li>
+          <li>График и таблица рядом, а не во вкладках</li>
+          <li>Любую плитку можно перетащить</li>
+        </ul>
+      </div>
+      <div class="showcase__art" data-reveal="right">
+        <div class="mock" data-chart>
+          <div class="mock__bar"><i></i><i></i><i></i><span>modules</span></div>
+          <div class="mock__body">
+            <div class="mock__side"><span></span><span></span><span></span><span></span></div>
+            <div class="mock__main">
+              <div class="mock__kpis">
+                <div class="kpi"><b data-count="8" data-suffix="" data-prefix="">0</b><span>модулей</span></div>
+                <div class="kpi"><b data-count="90" data-suffix="" data-prefix="">0</b><span>источников</span></div>
+                <div class="kpi"><b data-count="60" data-suffix=" сек" data-prefix="">0</b><span>обновление</span></div>
+              </div>
+              <div class="mock__chart">
+                <span style="--h:35%"></span>
+                <span style="--h:55%"></span>
+                <span style="--h:48%"></span>
+                <span style="--h:72%"></span>
+                <span style="--h:60%"></span>
+                <span style="--h:86%"></span>
+                <span style="--h:70%"></span>
+                <span style="--h:92%"></span>
+                <span style="--h:78%"></span>
+              </div>
+              <div class="mock__rows">
+                <div class="mrow"><u></u><i>ok</i><em>·</em></div>
+                <div class="mrow"><u></u><i>ok</i><em>·</em></div>
+                <div class="mrow"><u></u><i>ok</i><em>·</em></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--tight sec--alt" id="stats">
+    <div class="shell">
+      <div class="stats" style="--stat-cols:4" data-stagger>
+        <div class="stat"><b data-count="4 800" data-suffix="" data-prefix="">0</b><span>команд в месяц</span></div>
+        <div class="stat"><b data-count="99.98" data-suffix="%" data-prefix="">0</b><span>аптайм за год</span></div>
+        <div class="stat"><b data-count="1.2" data-suffix=" с" data-prefix="">0</b><span>отклик дашборда</span></div>
+        <div class="stat"><b data-count="31" data-suffix="" data-prefix="">0</b><span>дней триала</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec " id="features">
+    <div class="shell">
+        <header class="sec__head" data-reveal>
+          <p class="tag"><span class="tag__dot"></span>Модули</p>
+          <h2 class="sec__title">Четыре плитки, с которых начинают</h2>
+          <p class="sec__lead">Дальше — ещё четыре десятка, но эти четыре закрывают большую часть вопросов.</p>
+        </header>
+      <div class="grid grid--4" data-stagger>
+        <article class="card card--hover">
+          <span class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span>
+          <h3 class="card__title">Живой график</h3>
+          <p class="card__text">Данные обновляются раз в минуту и не мигают при перерисовке.</p>
+        </article>
+        <article class="card card--hover">
+          <span class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg></span>
+          <h3 class="card__title">Слои</h3>
+          <p class="card__text">Сравнивайте периоды и каналы прямо на оси, без переключения вкладок.</p>
+        </article>
+        <article class="card card--hover">
+          <span class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></span>
+          <h3 class="card__title">Таблица</h3>
+          <p class="card__text">Та же выгрузка, что на графике, с сортировкой и сохранёнными фильтрами.</p>
+        </article>
+        <article class="card card--hover">
+          <span class="card__ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span>
+          <h3 class="card__title">Алерты</h3>
+          <p class="card__text">Пишет в Telegram, только когда дельта действительно заметна.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="rows">
+<div class="shell">
+
+    </div>
+    <div class="shell">
+      <div class="row">
+        <div class="row__art" data-reveal="fade" style="--c1:#4f46e5;--c2:#22d3ee;--tile-bg:linear-gradient(135deg,#4f46e5,#22d3ee)" data-speed="0.04"><span class="row__glyph">01</span></div>
+        <div class="row__body" data-reveal="right">
+          <h2 class="row__title">Перетаскивание плиток</h2>
+          <p class="row__text">Мышь, палец или клавиатура. Порядок сохраняется между сессиями и устройствами.</p>
+          <ul class="row__list">
+            <li>Сетка с привязкой</li>
+            <li>Горячие клавиши</li>
+            <li>Отдельные представления</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row row--flip">
+        <div class="row__art" data-reveal="fade" style="--c1:#f472b6;--c2:#facc15;--tile-bg:linear-gradient(135deg,#f472b6,#facc15)" data-speed="0.04"><span class="row__glyph">02</span></div>
+        <div class="row__body" data-reveal="left">
+          <h2 class="row__title">Сравнение периодов</h2>
+          <p class="row__text">Каждый график показывает дельту к прошлому периоду прямо на оси, а не в подписи.</p>
+          <ul class="row__list">
+            <li>Дельта на оси</li>
+            <li>Дни недели</li>
+            <li>Год к году</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row__art" data-reveal="fade" style="--c1:#34d399;--c2:#0ea5e9;--tile-bg:linear-gradient(135deg,#34d399,#0ea5e9)" data-speed="0.04"><span class="row__glyph">03</span></div>
+        <div class="row__body" data-reveal="right">
+          <h2 class="row__title">Экспорт одной кнопкой</h2>
+          <p class="row__text">CSV, PDF и ссылка для коллег. Форматирование не разъезжается.</p>
+          <ul class="row__list">
+            <li>CSV и PDF</li>
+            <li>Ссылка с доступом</li>
+            <li>Расписание отправки</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="quotes">
+    <div class="shell">
+
+      <div class="quotes" data-stagger style="--quote-cols:2">
+        <figure class="quote">
+          <blockquote class="quote__text">Переставил плитки под себя один раз — с тех пор открываю дашборд и сразу вижу нужное.</blockquote>
+          <figcaption class="quote__by"><span class="quote__ava">АК</span><span><b>Анна К.</b><span>Продакт-менеджер</span></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote class="quote__text">Наконец-то цифра и график рядом. Раньше я делал два скриншота, чтобы объяснить вывод.</blockquote>
+          <figcaption class="quote__by"><span class="quote__ava">СМ</span><span><b>Сергей М.</b><span>Финансовый директор</span></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--alt" id="faq">
+    <div class="shell">
+        <header class="sec__head sec__head--center" data-reveal>
+          <p class="tag"><span class="tag__dot"></span>Вопросы</p>
+          <h2 class="sec__title">Коротко о подключении</h2>
+        </header>
+      <div class="faq" data-faq data-faq-single>
+        <div class="faq__item">
+          <button class="faq__q" type="button" aria-expanded="false">Сколько стоит?<i></i></button>
+          <div class="faq__a"><div><p>Бесплатно до 10 источников. Дальше — от 1 200 ₽ в месяц за командный тариф. Годовая подписка — минус 20%.</p></div></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q" type="button" aria-expanded="false">Что считать источником?<i></i></button>
+          <div class="faq__a"><div><p>Один тип данных: PostgreSQL-коннект, Google Ads, S3-бакет или вебхук. Не за каждый столбец.</p></div></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q" type="button" aria-expanded="false">Есть ли API?<i></i></button>
+          <div class="faq__a"><div><p>Да, REST и GraphQL, оба открытые. Все вычисления, доступные в интерфейсе, доступны и по API.</p></div></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q" type="button" aria-expanded="false">Что с приватностью?<i></i></button>
+          <div class="faq__a"><div><p>Данные не покидают ваш регион. Логи запросов можно выгрузить целиком.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="cta">
+    <div class="cta__bg"></div>
+    <div class="shell">
+      <h2 class="cta__title" data-reveal="zoom">СОБЕРИТЕ СВОЙ БЕНТО ЗА ДЕСЯТЬ МИНУТ</h2>
+      <p class="cta__text" data-reveal>Подключите источник — и дашборд соберёт сам.</p>
+      <div class="cta__btns" data-reveal>
+        <a class="btn btn--primary btn--lg" href="#top" data-magnetic=".25">Начать триал</a>
+        <a class="btn btn--ghost btn--lg" href="#top">Смотреть демо</a>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer class="foot">
+    <div class="shell">
+      <div class="foot__cols">
+        <div class="foot__col foot__about">
+          <a class="logo" href="#top"><span class="logo__mark"></span><span>BENTO</span></a>
+          <p>BENTO — модульная аналитика без прокрутки вниз в поисках важной цифры.</p>
+          <div class="foot__social">
+            <a href="#top" aria-label="TG">TG</a>
+            <a href="#top" aria-label="VK">VK</a>
+            <a href="#top" aria-label="GH">GH</a>
+            <a href="#top" aria-label="BE">BE</a>
+          </div>
+        </div>
+        <div class="foot__col">
+          <h4>Продукт</h4>
+          <ul>
+            <li><a href="#features">Модули</a></li>
+            <li><a href="#showcase">Интеграции</a></li>
+            <li><a href="#faq">Цены</a></li>
+          </ul>
+        </div>
+        <div class="foot__col">
+          <h4>Ресурсы</h4>
+          <ul>
+            <li><a href="#top">Документация</a></li>
+            <li><a href="#top">Changelog</a></li>
+            <li><a href="#top">Статус</a></li>
+          </ul>
+        </div>
+        <div class="foot__col">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="#top">О нас</a></li>
+            <li><a href="#top">Почта</a></li>
+            <li><a href="#top">Вакансии</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot__bar">
+        <p>© <span data-year>2026</span> BENTO. Все права защищены.</p>
+        <nav><a href="#top">Наверх</a><a href="../../index.html">Все стили</a></nav>
+      </div>
+    </div>
+  </footer>
+<script src="../../assets/engine.js" defer></script>
+</body>
+</html>

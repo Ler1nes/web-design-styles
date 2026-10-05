@@ -1,0 +1,17 @@
+/* скин: data-viz */
+:root{--bg:#ffffff;--bg-alt:#f6f8fa;--fg:#101720;--muted:#5c6a75;--line:#dde3e8;--accent:#0d6e6e;--on-accent:#fff;--accent-2:#b45309;--card-radius:10px;--tile-radius:10px;--mock-radius:10px;--ico-radius:8px;--btn-radius:8px;--field-radius:8px;--h1-weight:700;--h1-track:-.03em;--grid-gap:1rem}
+body{font-family:"Inter","Segoe UI",system-ui,sans-serif}
+.card{background:#fff}
+.card--hover:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(16,23,32,.1)}
+.card__ico{background:#e6f1f1;color:var(--accent);width:38px;height:38px}
+.kpi{background:#fbfcfd}
+.mock__chart{background:#fbfcfd}
+.stat b{font-variant-numeric:tabular-nums;font-weight:700}
+.stats{gap:.8rem}
+.plan--hot{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.tile__img{aspect-ratio:16/10}
+.showcase__art .mock__chart span{background:linear-gradient(180deg,var(--accent),rgba(13,110,110,.55))}
+.marquee{background:#f6f8fa;--mq-size:.82rem;--mq-color:var(--muted)}
+.marquee__item{font-weight:500;letter-spacing:.04em}
+.foot{--foot-bg:#f6f8fa}
+.cta__bg{background:radial-gradient(60% 70% at 50% 50%,rgba(13,110,110,.14),transparent 70%)}

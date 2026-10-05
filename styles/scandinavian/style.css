@@ -1,0 +1,13 @@
+/* скин: scandinavian */
+:root{--bg:#f7f5f1;--bg-alt:#eeebe4;--fg:#26241f;--muted:#6c6659;--line:#e0dbd1;--accent:#0f766e;--on-accent:#fff;--accent-2:#c08a4a;--card-radius:14px;--tile-radius:14px;--mock-radius:14px;--ico-radius:10px;--btn-radius:999px;--field-radius:10px;--h1-weight:600;--h1-track:-.035em;--h2-weight:600}
+.card{background:#fff}
+.card--hover:hover{transform:translateY(-4px)}
+.card__ico{background:#eef3f1;color:var(--accent)}
+.tile,.quote,.plan,.faq__item,.stat{background:#fff}
+.row__art{--tile-pattern:linear-gradient(180deg,rgba(192,138,74,.18),transparent)}
+.plan--hot{background:#fff;border-color:var(--accent)}
+.mini-tile{box-shadow:none}
+.marquee{background:var(--bg-alt);--mq-color:var(--muted);--mq-size:.95rem}
+.marquee__item{font-weight:500;letter-spacing:.04em}
+.stat b{font-weight:600}
+.foot{--foot-bg:#eeebe4}

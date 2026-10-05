@@ -1,0 +1,12 @@
+/* скин: dark-mode */
+:root{--bg:#000000;--bg-alt:#0a0a0c;--fg:#f2f2f3;--muted:#8d8d94;--line:#1e1e22;--accent:#7c6cff;--on-accent:#000;--accent-2:#4ade80;--card-bg:#0a0a0c;--card-bd:#1c1c20;--card-radius:16px;--tile-radius:16px;--mock-radius:16px;--mock-bg:#0a0a0c;--mock-line:#1c1c20;--ico-radius:12px;--btn-radius:10px;--field-radius:10px;--card-shadow:0 0 0 1px rgba(255,255,255,.02);--hero-glow:radial-gradient(50% 60% at 50% 0,rgba(124,108,255,.22),transparent 70%)}
+.nav{--nav-bg:rgba(0,0,0,.75)}
+.card--hover:hover{transform:translateY(-3px);box-shadow:0 0 0 1px rgba(124,108,255,.5),0 20px 50px rgba(124,108,255,.14)}
+.card__ico{background:rgba(124,108,255,.16);color:var(--accent)}
+.kpi b{color:#fff}
+.tile,.quote,.plan,.faq__item,.stat{background:#0a0a0c}
+.row__art{--tile-pattern:linear-gradient(160deg,rgba(124,108,255,.35),transparent 60%)}
+.plan--hot{background:#0d0d10;border-color:var(--accent);box-shadow:0 0 40px rgba(124,108,255,.16)}
+.marquee{background:#000;--mq-color:#5b5b62}
+.foot{--foot-bg:#000}
+.term{background:#050505;border-color:#1c1c20}

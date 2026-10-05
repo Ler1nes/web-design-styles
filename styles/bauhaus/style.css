@@ -1,0 +1,18 @@
+/* скин: bauhaus */
+:root{--bg:#f4f1ea;--bg-alt:#eae5da;--fg:#111111;--muted:#4a4741;--line:#111111;--accent:#dc2626;--on-accent:#fff;--accent-2:#1d4ed8;--btn-radius:0;--card-radius:0;--tile-radius:0;--mock-radius:0;--ico-radius:50%;--field-radius:0;--logo-radius:50%;--h1-weight:800;--h1-track:-.045em;--tag-track:.3em}
+body{background-image:linear-gradient(90deg,rgba(17,17,17,.05) 1px,transparent 1px);background-size:64px 64px}
+.card{border:2px solid var(--line);background:#fff;border-radius:0}
+.card--hover:hover{transform:translateY(-6px);box-shadow:8px 8px 0 var(--accent)}
+.card__ico{background:var(--accent);color:#fff}
+.card:nth-child(2) .card__ico{background:#1d4ed8}
+.card:nth-child(3) .card__ico{background:#facc15;color:#111}
+.card:nth-child(4) .card__ico{background:#111}
+.mini-tile{clip-path:polygon(50% 0,100% 100%,0 100%)}
+.tile__img{border:2px solid var(--line)}
+.row__art{border:2px solid var(--line);--tile-pattern:linear-gradient(90deg,rgba(17,17,17,.14) 2px,transparent 2px);background-size:32px 32px}
+.plan--hot{background:var(--accent);color:#fff}
+.plan--hot .plan__feats,.plan--hot .plan__price small{color:#fff}
+.marquee{background:var(--fg);--mq-color:#fff}
+.poster{border:2px solid var(--line);border-radius:0}
+.foot{--foot-bg:#111;color:#fff}
+.foot__col ul,.foot__about p,.foot__bar{color:rgba(255,255,255,.72)}

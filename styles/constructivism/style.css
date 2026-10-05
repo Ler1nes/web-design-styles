@@ -1,0 +1,20 @@
+/* скин: constructivism */
+:root{--bg:#e9e2d4;--bg-alt:#ded5c3;--fg:#171412;--muted:#4b463f;--line:#171412;--accent:#d81e05;--on-accent:#fff;--accent-2:#1b3fa8;--btn-radius:0;--card-radius:0;--tile-radius:0;--field-radius:0;--mock-radius:0;--ico-radius:0;--logo-radius:0;--tag-track:.3em}
+body{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif}
+.nav{--nav-bg:var(--bg);--nav-bd-stuff:0;--nav-bd-stuck:var(--fg)}
+.logo__mark{transform:rotate(45deg)}
+.hero{overflow:hidden}
+.hero::after{content:"";position:absolute;right:-8%;top:4%;width:38%;aspect-ratio:1;border:3px solid var(--fg);transform:rotate(45deg);opacity:.14;pointer-events:none}
+.hero__title{text-transform:uppercase;line-height:.92;letter-spacing:-.03em}
+.btn{text-transform:uppercase;font-weight:800;letter-spacing:.06em}
+.btn--primary{background:var(--accent)}
+.hero__glow{background:repeating-linear-gradient(118deg,transparent 0 24px,rgba(216,30,5,.12) 24px 48px)}
+.card{border:2px solid var(--fg);box-shadow:8px 8px 0 var(--accent);background:#f6f1e6;transform:skewX(-2deg)}
+.card--hover:hover{transform:skewX(-2deg) translate(-4px,-4px);box-shadow:12px 12px 0 var(--accent)}
+.card__ico{background:var(--accent);color:#fff;border-radius:0}
+.tile{border:2px solid var(--fg);box-shadow:8px 8px 0 var(--fg);background:#f6f1e6}
+.row__art{border:2px solid var(--fg);border-radius:0;--tile-pattern:repeating-linear-gradient(45deg,rgba(255,255,255,.2) 0 14px,transparent 14px 28px)}
+.quote,.plan,.faq__item,.stat{border:2px solid var(--fg);border-radius:0;background:#f6f1e6}
+.plan--hot{background:var(--accent);color:#fff;box-shadow:8px 8px 0 var(--fg)}
+.plan--hot .plan__price,.plan--hot .plan__feats{color:#fff}
+.foot{--foot-bg:#ded5c3}

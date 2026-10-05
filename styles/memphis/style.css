@@ -1,0 +1,18 @@
+/* скин: memphis */
+:root{--bg:#fdf6e8;--bg-alt:#ffffff;--fg:#17141f;--muted:#5b5470;--line:#17141f;--accent:#a855f7;--on-accent:#17141f;--accent-2:#22d3ee;--btn-radius:8px;--card-radius:8px;--tile-radius:8px;--mock-radius:8px;--ico-radius:6px;--field-radius:8px;--h1-weight:800;--h2-weight:800}
+body{background-image:radial-gradient(rgba(168,85,247,.14) 2px,transparent 3px);background-size:26px 26px}
+.card{border:2px solid var(--line);box-shadow:6px 6px 0 var(--line);background:#fff}
+.card--hover:hover{transform:translate(-3px,-4px);box-shadow:9px 10px 0 var(--accent)}
+.card:nth-child(1){background:var(--accent-2);border-color:var(--line)}
+.card:nth-child(2){background:#facc15}
+.card:nth-child(3){background:#22c55e}
+.card:nth-child(4){background:#f472b6}
+.card__ico{background:var(--fg);color:#fff;border-radius:50%}
+.tile{border:2px solid var(--line);box-shadow:6px 6px 0 var(--line);background:#fff}
+.quote,.plan,.faq__item,.stat{border:2px solid var(--line);box-shadow:5px 5px 0 var(--line);background:#fff}
+.row__art{border:2px solid var(--line);--tile-pattern:repeating-conic-gradient(rgba(255,255,255,.22) 0 25%,transparent 0 50%);background-size:36px 36px}
+.plan--hot{background:var(--accent);box-shadow:8px 8px 0 var(--line)}
+.marquee{background:var(--fg);--mq-color:#fff;border-color:var(--line)}
+.mini-tile{border:2px solid var(--line)}
+.foot{--foot-bg:#fff}
+.btn--primary{background:var(--accent);color:#17141f}

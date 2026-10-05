@@ -1,0 +1,16 @@
+/* скин: skeuomorphism */
+:root{--bg:#e6d5b8;--bg-alt:#dcc7a3;--fg:#3a2b1c;--muted:#6b5540;--line:#b99b73;--accent:#8b5a2b;--on-accent:#fdf6e8;--accent-2:#3f6b4a;--card-radius:14px;--tile-radius:14px;--mock-radius:12px;--ico-radius:8px;--btn-radius:8px;--field-radius:8px;--hero-glow:radial-gradient(60% 60% at 50% 0,rgba(255,240,210,.5),transparent 70%)}
+body{font-family:Georgia,"Times New Roman",serif;background-image:linear-gradient(rgba(120,90,55,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(120,90,55,.07) 1px,transparent 1px);background-size:26px 26px}
+.card{background:linear-gradient(#fbf1de,#f0e0c2);border:1px solid var(--line);box-shadow:0 2px 0 rgba(255,255,255,.7) inset,0 10px 20px rgba(90,66,40,.18)}
+.card--hover:hover{transform:translateY(-3px);box-shadow:0 2px 0 rgba(255,255,255,.8) inset,0 18px 34px rgba(90,66,40,.24)}
+.card__ico{background:linear-gradient(#a9723c,#7d4d22);color:#fdf6e8;border-radius:8px;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 2px 4px rgba(0,0,0,.3)}
+.btn{background:linear-gradient(#e2cba1,#cbaa78);border:1px solid #a2804f;box-shadow:0 2px 0 #a2804f,0 4px 8px rgba(0,0,0,.18);text-shadow:0 1px 0 rgba(255,255,255,.4)}
+.btn--primary{background:linear-gradient(#9a6631,#7d4d22);color:#fdf6e8;text-shadow:0 -1px 0 rgba(0,0,0,.3)}
+.tile,.quote,.plan,.faq__item,.stat{background:linear-gradient(#fbf1de,#eeddc0);border:1px solid var(--line)}
+.plan--hot{background:linear-gradient(#fff8e8,#f0dfbc);border-color:var(--accent)}
+.row__art{--tile-pattern:repeating-linear-gradient(0deg,rgba(120,90,55,.14) 0 1px,transparent 1px 7px)}
+.kpi,.mock__chart,.mrow{background:#f7ecd8}
+.field input,.field textarea{background:linear-gradient(#f7ecd8,#efe0c6);border:1px solid #b99b73;box-shadow:inset 0 2px 4px rgba(120,90,55,.25)}
+.mock{background:linear-gradient(#fbf1de,#e9d7b6);box-shadow:0 2px 0 rgba(255,255,255,.6) inset,0 20px 44px rgba(90,66,40,.3)}
+.foot{--foot-bg:#dcc7a3}
+.tag__dot{border-radius:50%}

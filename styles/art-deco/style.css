@@ -1,0 +1,17 @@
+/* скин: art-deco */
+:root{--bg:#0d1b1e;--bg-alt:#12262a;--fg:#f1e6cf;--muted:#a9b6ac;--line:rgba(201,162,39,.42);--accent:#c9a227;--on-accent:#0d1b1e;--accent-2:#e6c766;--card-radius:2px;--tile-radius:2px;--mock-radius:2px;--ico-radius:50%;--btn-radius:2px;--field-radius:2px;--h1-weight:600;--h1-track:.02em;--h2-track:.06em;--tag-track:.34em}
+body{font-family:"Didot","Bodoni MT",Georgia,serif;letter-spacing:.02em}
+.nav{--nav-bg:rgba(13,27,30,.9)}
+.hero__title{text-transform:uppercase}
+.card{background:linear-gradient(#12262a,#0d1b1e);border:1px solid var(--line);position:relative}
+.card::after{content:"";position:absolute;inset:6px;border:1px solid rgba(201,162,39,.28);pointer-events:none}
+.card__ico{background:none;color:var(--accent);border:1px solid var(--line);width:48px;height:48px}
+.tile,.quote,.plan,.faq__item,.stat{background:#12262a;border-color:var(--line)}
+.row__art{border:1px solid var(--line);--tile-pattern:linear-gradient(90deg,rgba(201,162,39,.22) 0 1px,transparent 1px);background-size:26px 26px}
+.plan--hot{border-color:var(--accent);box-shadow:0 0 40px rgba(201,162,39,.16)}
+.btn{border-color:var(--accent);--btn-hover:var(--accent);--btn-hover-fg:#0d1b1e}
+.btn--primary{background:var(--accent)}
+.marquee{background:none;border-color:var(--line);--mq-color:var(--accent-2);--mq-size:1.1rem}
+.marquee__item{letter-spacing:.3em;font-variant:small-caps}
+.foot{--foot-bg:#0a1518}
+.stat b{color:var(--accent)}

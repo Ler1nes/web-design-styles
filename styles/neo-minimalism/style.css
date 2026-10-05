@@ -1,0 +1,16 @@
+/* скин: neo-minimalism */
+:root{--bg:#faf9f7;--bg-alt:#f4f2ed;--fg:#14110e;--muted:#7c766c;--line:#e8e4dc;--accent:#14110e;--on-accent:#faf9f7;--accent-2:#8a8175;--btn-radius:0;--card-radius:0;--tile-radius:0;--field-radius:0;--mock-radius:0;--ico-radius:0;--tag-track:.22em;--h1-weight:500;--h1-track:-.045em;--h1-max:16ch}
+.nav{--nav-bg:rgba(250,249,247,.82)}
+.card{background:transparent;border:0;border-top:1px solid var(--line);padding:1.9rem 0 1.9rem;--card-pad:1.9rem 0}
+.card--hover:hover{transform:none;box-shadow:none;background:transparent;border-color:var(--fg)}
+.card__ico{background:transparent;color:var(--fg);width:auto;height:auto;margin-bottom:1.4rem}
+.card__ico svg{width:22px;height:22px}
+.tile{background:transparent;border-color:var(--line)}
+.tile__img::after{background:linear-gradient(160deg,rgba(20,17,14,.05),transparent)}
+.row__art{border-radius:0}
+.quote{border-radius:0;background:transparent;border-color:var(--line)}
+.plan{border-radius:0;background:transparent}
+.faq__item{border-radius:0;background:transparent}
+.stat--plain b{font-weight:500}
+.marquee{background:transparent}
+.hero__glow{opacity:.4}

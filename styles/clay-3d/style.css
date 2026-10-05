@@ -1,0 +1,12 @@
+/* скин: clay-3d */
+:root{--bg:#fff6ef;--bg-alt:#ffece0;--fg:#4a2f45;--muted:#8b6f83;--line:#f2d5c6;--accent:#ff7a9c;--on-accent:#fff;--accent-2:#8b5cf6;--card-radius:28px;--tile-radius:28px;--mock-radius:28px;--ico-radius:18px;--btn-radius:999px;--field-radius:18px;--h1-weight:800;--hero-glow:radial-gradient(50% 60% at 30% 0,rgba(255,122,156,.28),transparent 70%)}
+.card{background:linear-gradient(160deg,#fff,#fff2ea);box-shadow:10px 12px 26px rgba(198,132,110,.22),inset 0 -6px 12px rgba(214,160,140,.16)}
+.card--hover:hover{transform:translateY(-6px) scale(1.01);box-shadow:16px 20px 38px rgba(198,132,110,.28)}
+.card__ico{background:linear-gradient(150deg,#ffb3c6,#ff7a9c);color:#fff;box-shadow:inset 0 -3px 6px rgba(180,60,90,.3),0 6px 12px rgba(255,122,156,.4)}
+.btn--primary{background:linear-gradient(150deg,#ff9ab4,#ff5f8c);box-shadow:0 8px 18px rgba(255,95,140,.35)}
+.tile,.quote,.plan,.faq__item,.stat{background:linear-gradient(160deg,#fff,#fff4ee);border-color:#f6ddd0}
+.row__art{border-radius:32px;--tile-pattern:radial-gradient(circle at 32% 28%,rgba(255,255,255,.5),transparent 60%)}
+.plan--hot{background:linear-gradient(160deg,#fff6ef,#ffe9f0);border-color:var(--accent)}
+.mini-tile{border-radius:26px}
+.foot{--foot-bg:#fff0e6}
+.cta__bg{background:radial-gradient(60% 70% at 50% 50%,rgba(255,122,156,.26),transparent 70%)}

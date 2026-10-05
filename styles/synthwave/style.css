@@ -1,0 +1,13 @@
+/* скин: synthwave */
+:root{--bg:#120a2e;--bg-alt:#1b0f45;--fg:#f3e9ff;--muted:#b39ddb;--line:rgba(244,114,182,.45);--accent:#f472b6;--on-accent:#1a0b33;--accent-2:#22d3ee;--card-bg:rgba(244,114,182,.08);--card-bd:rgba(244,114,182,.4);--card-radius:6px;--tile-radius:6px;--mock-radius:6px;--ico-radius:4px;--btn-radius:999px;--field-radius:8px;--h1-weight:800;--h1-track:-.03em;--hero-glow:radial-gradient(60% 60% at 50% 0,rgba(244,114,182,.35),transparent 70%)}
+body{font-family:"Trebuchet MS",Verdana,sans-serif;background-image:linear-gradient(rgba(122,43,255,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(122,43,255,.16) 1px,transparent 1px);background-size:46px 46px}
+.hero__title{background:linear-gradient(92deg,#22d3ee,#f472b6 55%,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card--hover:hover{box-shadow:0 0 34px rgba(244,114,182,.4);border-color:var(--accent)}
+.card__ico{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#1a0b33}
+.tile__img::after{background:repeating-linear-gradient(0deg,rgba(0,0,0,.28) 0 1px,transparent 1px 3px)}
+.marquee{background:#0d0622;--mq-color:#22d3ee;--mq-size:1.1rem;letter-spacing:.2em}
+.marquee__item{text-transform:uppercase;letter-spacing:.22em}
+.stat b{background:linear-gradient(92deg,#22d3ee,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.plan--hot{background:linear-gradient(150deg,rgba(244,114,182,.24),rgba(34,211,238,.14));border-color:var(--accent)}
+.foot{--foot-bg:#0d0622}
+.cta__bg{background:radial-gradient(60% 70% at 50% 60%,rgba(244,114,182,.3),transparent 70%)}

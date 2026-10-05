@@ -1,0 +1,12 @@
+/* скин: farmhouse */
+:root{--bg:#f6efe2;--bg-alt:#ede2ce;--fg:#3f3a2e;--muted:#736a58;--line:#a16207;--accent:#a16207;--on-accent:#fdfaf3;--accent-2:#7c5a1e;--card-radius:10px;--tile-radius:10px;--mock-radius:10px;--ico-radius:50%;--btn-radius:6px;--field-radius:6px;--tag-track:.24em}
+body{font-family:Georgia,"Times New Roman",serif;background-image:repeating-linear-gradient(90deg,rgba(120,96,54,.05) 0 2px,transparent 2px 9px)}
+.card{background:#fdfaf3;border:1px dashed var(--line);box-shadow:2px 3px 0 rgba(120,96,54,.12)}
+.card--hover:hover{transform:translateY(-3px);border-style:solid}
+.card__ico{background:var(--accent);color:#fdfaf3}
+.tile,.quote,.plan,.faq__item,.stat{background:#fdfaf3;border-color:var(--line)}
+.row__art{border:1px solid var(--line);--tile-pattern:repeating-linear-gradient(0deg,rgba(120,96,54,.14) 0 2px,transparent 2px 8px)}
+.plan--hot{background:#fbf1de;border-style:dashed;border-color:var(--accent)}
+.marquee{background:#ede2ce;--mq-color:var(--accent)}
+.field input,.field textarea{background:#fdfaf3;border:1px solid #c8b28a}
+.foot{--foot-bg:#ede2ce}

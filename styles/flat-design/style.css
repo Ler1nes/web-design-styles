@@ -1,0 +1,19 @@
+/* скин: flat-design */
+:root{--bg:#ffffff;--bg-alt:#f2f3f5;--fg:#101317;--muted:#5b6169;--line:#dfe2e6;--accent:#1f6bff;--on-accent:#fff;--accent-2:#ff7a00;--card-radius:4px;--tile-radius:4px;--mock-radius:4px;--ico-radius:4px;--btn-radius:4px;--field-radius:4px;--card-shadow:none;--mock-shadow:0 12px 26px rgba(16,19,23,.12)}
+.card{--card-shadow:none;transition:none}
+.card--hover:hover{transform:none;box-shadow:none;border-color:var(--accent);border-width:2px;padding:calc(var(--card-pad,1.6rem) - 1px)}
+.card__ico{background:var(--accent);color:#fff}
+.card:nth-child(2) .card__ico{background:var(--accent-2)}
+.card:nth-child(3) .card__ico{background:#12b981}
+.btn{font-weight:700;letter-spacing:.01em}
+.hero__title{font-weight:800;letter-spacing:-.04em}
+.tile__img::after{background:linear-gradient(160deg,rgba(0,0,0,.06),transparent)}
+.quote{background:var(--bg)}
+.plan--hot{background:#1f6bff;color:#fff;border-color:#1f6bff}
+.plan--hot .plan__feats,.plan--hot .plan__price small{color:rgba(255,255,255,.86)}
+.row__art{border-radius:4px}
+.marquee{background:var(--accent);color:#fff;border-color:var(--accent);--mq-color:#fff}
+.marquee__item{color:#fff;font-weight:700}
+.stat{background:var(--bg);border:2px solid var(--line)}
+.foot{--foot-bg:#101317;color:#fff}
+.foot__col ul,.foot__about p,.foot__bar{color:rgba(255,255,255,.7)}

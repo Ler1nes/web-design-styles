@@ -1,0 +1,18 @@
+/* скин: functionalism */
+:root{--bg:#f5f6f7;--bg-alt:#eceef0;--fg:#14202b;--muted:#5c6a75;--line:#c3ccd3;--accent:#0d6e6e;--on-accent:#fff;--accent-2:#b45309;--btn-radius:2px;--card-radius:2px;--tile-radius:2px;--mock-radius:2px;--ico-radius:2px;--field-radius:2px;--logo-radius:0;--h1-weight:600;--h1-track:-.02em;--h2-weight:600;--lead:1rem;--grid-gap:.8rem;--card-pad:1.1rem}
+body{font-family:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;font-size:15.5px}
+.nav{--nav-bg:#f5f6f7;--nav-h:56px}
+.tag{font-family:"IBM Plex Mono",Consolas,monospace;font-size:.7rem;letter-spacing:.06em;text-transform:none}
+.card{background:#fff;box-shadow:none}
+.card--hover:hover{transform:none;box-shadow:none;border-color:var(--accent)}
+.card__ico{width:34px;height:34px;background:#fff;color:var(--accent);border:1px solid var(--line);border-radius:2px}
+.stat{border-radius:2px;padding:.9rem 1rem;background:#fff}
+.kpi{border-radius:2px}
+.mock__bar{background:#eef1f3;border-radius:0}
+.mrow{border-radius:2px}
+.tile,.quote,.plan,.faq__item{border-radius:2px;background:#fff}
+.plan--hot{background:#fff;border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.step::after{background:#c3ccd3}
+.marquee{background:#eef1f3;--mq-size:.9rem;--mq-color:var(--muted)}
+.marquee__item{font-family:"IBM Plex Mono",Consolas,monospace;font-weight:500;letter-spacing:.04em}
+.foot{--foot-bg:#eceef0;font-size:.92rem}

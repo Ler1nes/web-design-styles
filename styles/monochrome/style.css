@@ -1,0 +1,18 @@
+/* скин: monochrome */
+:root{--bg:#fafafa;--bg-alt:#f0f0f0;--fg:#111111;--muted:#767676;--line:#dcdcdc;--accent:#111111;--on-accent:#fafafa;--accent-2:#8a8a8a;--card-radius:0;--tile-radius:0;--mock-radius:0;--ico-radius:0;--btn-radius:0;--field-radius:0;--logo-radius:0;--h1-weight:700;--h1-track:-.05em;--tag-track:.26em}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.nav__link{color:#767676}
+.card{background:transparent;border:0;border-top:1px solid var(--line);padding-inline:0}
+.card--hover:hover{transform:none;box-shadow:none;background:transparent}
+.card__ico{background:none;color:#111;width:auto;height:auto;border-radius:0}
+.card__ico svg{width:22px;height:22px}
+.tile,.quote,.plan,.faq__item,.stat{background:transparent;border-color:var(--line);border-radius:0}
+.stat--plain b{font-weight:500}
+.row__art{--tile-pattern:linear-gradient(rgba(17,17,17,.12) 1px,transparent 1px);background-size:30px 30px}
+.tile__img::after{background:linear-gradient(160deg,rgba(0,0,0,.14),transparent)}
+.plan--hot{background:#111;color:#fafafa;border-color:#111}
+.plan--hot .plan__feats,.plan--hot .plan__price small{color:#c9c9c9}
+.quote__ava{background:#111;color:#fafafa}
+.marquee{background:transparent;--mq-color:#767676}
+.marquee__item{font-weight:500;letter-spacing:.1em}
+.foot{--foot-bg:#f0f0f0}

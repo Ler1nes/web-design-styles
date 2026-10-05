@@ -1,0 +1,12 @@
+/* скин: neumorphism */
+:root{--bg:#e6e8ec;--bg-alt:#e9ebef;--fg:#2b3040;--muted:#6b7183;--line:#dfe2e8;--accent:#5b6cff;--on-accent:#fff;--accent-2:#8f7bff;--card-radius:26px;--tile-radius:26px;--mock-radius:26px;--ico-radius:18px;--btn-radius:16px;--field-radius:16px;--card-shadow:14px 14px 30px rgba(163,170,190,.55),-14px -14px 30px rgba(255,255,255,.9)}
+.card{--card-bg:#e6e8ec;--card-bd:transparent;box-shadow:10px 10px 24px rgba(163,170,190,.5),-10px -10px 24px rgba(255,255,255,.9)}
+.card--hover:hover{transform:translateY(-4px);box-shadow:16px 16px 34px rgba(163,170,190,.55),-16px -16px 34px rgba(255,255,255,.95)}
+.card__ico{background:#e6e8ec;color:var(--accent);box-shadow:inset 4px 4px 8px rgba(163,170,190,.6),inset -4px -4px 8px rgba(255,255,255,.9)}
+.btn{box-shadow:6px 6px 14px rgba(163,170,190,.55),-6px -6px 14px rgba(255,255,255,.9)}
+.btn--primary{box-shadow:inset 3px 3px 7px rgba(0,0,0,.18),inset -3px -3px 7px rgba(255,255,255,.25)}
+.field input,.field textarea{background:#e6e8ec;border:0;box-shadow:inset 5px 5px 12px rgba(163,170,190,.55),inset -5px -5px 12px rgba(255,255,255,.9)}
+.field input:focus,.field textarea:focus{box-shadow:inset 5px 5px 12px rgba(163,170,190,.55),inset -5px -5px 12px rgba(255,255,255,.9),0 0 0 4px rgba(91,108,255,.14)}
+.tile,.quote,.plan,.faq__item,.stat{--card-bd:transparent;box-shadow:10px 10px 24px rgba(163,170,190,.45),-10px -10px 24px rgba(255,255,255,.85)}
+.mock{box-shadow:14px 14px 32px rgba(163,170,190,.55),-14px -14px 32px rgba(255,255,255,.9)}
+.step::after{background:#cfd4de}

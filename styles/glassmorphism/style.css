@@ -1,0 +1,13 @@
+/* скин: glassmorphism */
+:root{--bg:#070b18;--bg-alt:rgba(255,255,255,.06);--fg:#f2f6ff;--muted:#a9b4d0;--line:rgba(255,255,255,.14);--accent:#7ab8ff;--on-accent:#06101f;--accent-2:#c9a6ff;--card-bg:rgba(255,255,255,.07);--card-bd:rgba(255,255,255,.14);--card-radius:22px;--tile-radius:22px;--mock-radius:22px;--ico-radius:16px;--btn-radius:999px;--mock-bg:rgba(255,255,255,.06);--mock-line:rgba(255,255,255,.12);--foot-bg:rgba(6,10,22,.6)}
+body{background:radial-gradient(90% 70% at 12% 8%,rgba(122,184,255,.28),transparent 60%),radial-gradient(80% 70% at 88% 20%,rgba(201,166,255,.24),transparent 60%),radial-gradient(70% 60% at 50% 100%,rgba(62,224,200,.18),transparent 60%) fixed,#070b18}
+.nav{--nav-bg:rgba(7,11,24,.45);--nav-stuck:rgba(7,11,24,.7)}
+.card,.tile,.quote,.plan,.faq__item,.stat,.mock,.hero-quote{backdrop-filter:blur(18px) saturate(140%);background:var(--card-bg)}
+.card--hover:hover{box-shadow:0 26px 60px rgba(122,184,255,.22);border-color:rgba(255,255,255,.34)}
+.card__ico{background:rgba(255,255,255,.14);color:#fff}
+.kpi{background:rgba(255,255,255,.06)}
+.mrow,.mock__chart{background:rgba(255,255,255,.04)}
+.plan--hot{background:rgba(122,184,255,.16)}
+.row__art{--tile-pattern:linear-gradient(140deg,rgba(255,255,255,.28),transparent 55%)}
+.hero__glow{background:radial-gradient(50% 60% at 70% 0,rgba(201,166,255,.28),transparent 70%)}
+.cta__bg{background:radial-gradient(60% 70% at 50% 50%,rgba(122,184,255,.24),transparent 70%)}

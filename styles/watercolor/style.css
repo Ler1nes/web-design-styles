@@ -1,0 +1,12 @@
+/* скин: watercolor */
+:root{--bg:#fdfbf7;--bg-alt:#f3ede4;--fg:#3b4a5c;--muted:#7d8a99;--line:#e2d9cb;--accent:#457b9d;--on-accent:#fff;--accent-2:#e07a5f;--card-radius:22px;--tile-radius:22px;--mock-radius:20px;--ico-radius:50%;--btn-radius:999px;--field-radius:14px;--h1-weight:600;--h1-track:-.02em;--hero-glow:radial-gradient(50% 60% at 22% 10%,rgba(168,218,220,.55),transparent 65%),radial-gradient(45% 55% at 82% 20%,rgba(240,171,252,.45),transparent 65%)}
+body{background-image:radial-gradient(circle at 12% 18%,rgba(168,218,220,.5),transparent 34%),radial-gradient(circle at 84% 12%,rgba(240,171,252,.4),transparent 30%),radial-gradient(circle at 68% 78%,rgba(253,186,116,.35),transparent 32%)}
+.card{background:rgba(255,255,255,.72);backdrop-filter:blur(6px);border-color:rgba(226,217,203,.9)}
+.card--hover:hover{transform:translateY(-5px) rotate(-.3deg)}
+.card__ico{background:rgba(69,123,157,.14);color:var(--accent)}
+.tile__img{filter:saturate(1.05)}
+.row__art{--tile-pattern:radial-gradient(circle at 30% 30%,rgba(255,255,255,.55),transparent 55%)}
+.quote{background:rgba(255,255,255,.7)}
+.marquee{background:transparent;border-color:var(--line);--mq-color:var(--muted);--mq-size:.95rem;font-style:italic}
+.marquee__item{font-weight:500}
+.foot{--foot-bg:rgba(255,255,255,.6)}
